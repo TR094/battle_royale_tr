@@ -1,0 +1,6 @@
+"battle_royale_tr"
+{
+	"base"		"base"
+	"title"		"battle royalet tr"
+	"menusystem"	"1"
+}

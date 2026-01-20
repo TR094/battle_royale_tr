@@ -1,0 +1,6 @@
+"UnlitGeneric" 
+{
+	"$baseTexture" "vgui/lordi/entities/spawner"
+	"$translucent" "1"
+	"$ignorez" "1"
+}
