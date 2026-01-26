@@ -12,4 +12,12 @@ function ply:Battle()
 	self:SetModel("models/player/kleiner.mdl")
 	self:StripWeapons()
 	self:StripAmmo()
+
+
+	if self:Team() == RED then
+		print("red team")
+	else
+		print("paska team")
+	end
+
 end

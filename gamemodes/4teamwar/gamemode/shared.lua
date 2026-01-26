@@ -1,4 +1,4 @@
-GM.Name = "battle_royale_tr"
+GM.Name = "4teamwar"
 GM.Author = "TR"
 GM.Email = "N/A"
 GM.Website = "N/A"
