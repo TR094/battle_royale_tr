@@ -164,14 +164,21 @@ if SERVER then
 			if ply:Alive() then
 				-- reset model how sandbox does it
 				ply:SetModel(player_manager.TranslatePlayerModel(ply:GetInfo("cl_playermodel")))
+
 				ply:SetSkin(ply:GetInfoNum("cl_playerskin", 0))
+
 				local bodygroups = ply:GetInfo("cl_playerbodygroups")
+
 				if bodygroups == nil then bodygroups = "" end
+
 				local groups = string.Explode(" ", bodygroups)
+
 				for k = 0, ply:GetNumBodyGroups() - 1 do
 					ply:SetBodygroup(k, tonumber(groups[k + 1]) or 0)
 				end
+
 				ply:SetPlayerColor(Vector(ply:GetInfo("cl_playercolor")))
+				
 			end
 		else
 			ply:SetTeam(SixTeamsBaseID + i)
